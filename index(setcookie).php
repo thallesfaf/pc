@@ -1,0 +1,19 @@
+							<?php
+							include "estrutura/topo.php";
+								$login_cookie = $_COOKIE['login'];
+								if(isset($login_cookie))
+									/*
+								{
+									echo"Bem-Vindo, $login_cookie <br>";
+									echo"<br><a href='sobre.php'>";
+									echo"Essas informações <font color='red'>PODEM</font> ser acessadas por você";
+
+								}
+								
+								{
+									echo"Bem-Vindo, convidado <br>";
+									echo"Essas informações <font color='red'>NÃO PODEM</font> ser acessadas por você";
+									echo"<br><a href='login.html'>Faça Login</a> Para ler o conteúdo";
+								} */
+							?>
+
